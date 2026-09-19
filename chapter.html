@@ -80,6 +80,14 @@ footer{
     color:#666;
 }
 
+.flashback-marker{
+    text-align:center;
+    font-size:1.6em;
+    letter-spacing:0.5em;
+    color:#666;
+    margin:2em 0;
+}
+
 </style>
 
 </head>
@@ -172,6 +180,9 @@ fetch(`Chapters/${encodeURIComponent(file)}.md`)
 })
 .then(markdown => {
 
+    // A lone "*" line marks a flashback; plain Markdown would render it as an empty bullet.
+    markdown = markdown.replace(/^[ \t]*\*[ \t]*$/gm, '<p class="flashback-marker">*</p>');
+
     content.innerHTML = marked.parse(markdown);
 
 })
@@ -217,6 +228,8 @@ window.addEventListener("scroll", () => {
 });
 
 </script>
+
+<script src="feedback.js" data-story="The Embezzler"></script>
 
 </body>
 </html>
