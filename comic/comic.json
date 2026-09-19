@@ -1,0 +1,490 @@
+{
+ "pageSize": [
+  1122,
+  1402
+ ],
+ "chapters": [
+  {
+   "id": "c01",
+   "chapter": 1,
+   "file": "Chapter 01 - India",
+   "title": "Chapter 1 – India",
+   "pages": [
+    "c01/01.webp",
+    "c01/02.webp",
+    "c01/03.webp",
+    "c01/04.webp",
+    "c01/05.webp",
+    "c01/06.webp",
+    "c01/07.webp",
+    "c01/08.webp",
+    "c01/09.webp"
+   ]
+  },
+  {
+   "id": "c02",
+   "chapter": 2,
+   "file": "Chapter 02 - Mauritius",
+   "title": "Chapter 2 – Mauritius",
+   "pages": [
+    "c02/01.webp",
+    "c02/02.webp",
+    "c02/03.webp",
+    "c02/04.webp",
+    "c02/05.webp",
+    "c02/06.webp",
+    "c02/07.webp"
+   ]
+  },
+  {
+   "id": "c03",
+   "chapter": 3,
+   "file": "Chapter 03 - Mauritius",
+   "title": "Chapter 3 – Mauritius",
+   "pages": [
+    "c03/01.webp",
+    "c03/02.webp",
+    "c03/03.webp",
+    "c03/04.webp",
+    "c03/05.webp",
+    "c03/06.webp",
+    "c03/07.webp",
+    "c03/08.webp"
+   ]
+  },
+  {
+   "id": "c04",
+   "chapter": 4,
+   "file": "Chapter 04 - India",
+   "title": "Chapter 4 – India",
+   "pages": [
+    "c04/01.webp",
+    "c04/02.webp",
+    "c04/03.webp",
+    "c04/04.webp",
+    "c04/05.webp",
+    "c04/06.webp",
+    "c04/07.webp",
+    "c04/08.webp"
+   ]
+  },
+  {
+   "id": "c05",
+   "chapter": 5,
+   "file": "Chapter 05 - Mauritius",
+   "title": "Chapter 5 – Mauritius",
+   "pages": [
+    "c05/01.webp",
+    "c05/02.webp",
+    "c05/03.webp",
+    "c05/04.webp",
+    "c05/05.webp",
+    "c05/06.webp",
+    "c05/07.webp",
+    "c05/08.webp"
+   ]
+  },
+  {
+   "id": "c06",
+   "chapter": 6,
+   "file": "Chapter 06 - India",
+   "title": "Chapter 6 – India",
+   "pages": [
+    "c06/01.webp",
+    "c06/02.webp",
+    "c06/03.webp",
+    "c06/04.webp",
+    "c06/05.webp",
+    "c06/06.webp",
+    "c06/07.webp",
+    "c06/08.webp",
+    "c06/09.webp"
+   ]
+  },
+  {
+   "id": "c07",
+   "chapter": 7,
+   "file": "Chapter 07 - Mauritius",
+   "title": "Chapter 7 – Mauritius",
+   "pages": [
+    "c07/01.webp",
+    "c07/02.webp",
+    "c07/03.webp",
+    "c07/04.webp",
+    "c07/05.webp",
+    "c07/06.webp",
+    "c07/07.webp",
+    "c07/08.webp"
+   ]
+  },
+  {
+   "id": "c08",
+   "chapter": 8,
+   "file": "Chapter 08 - Mauritius",
+   "title": "Chapter 8 – Mauritius",
+   "pages": [
+    "c08/01.webp",
+    "c08/02.webp",
+    "c08/03.webp",
+    "c08/04.webp",
+    "c08/05.webp",
+    "c08/06.webp",
+    "c08/07.webp",
+    "c08/08.webp"
+   ]
+  },
+  {
+   "id": "c09",
+   "chapter": 9,
+   "file": "Chapter 09 - India",
+   "title": "Chapter 9 – India",
+   "pages": [
+    "c09/01.webp",
+    "c09/02.webp",
+    "c09/03.webp",
+    "c09/04.webp",
+    "c09/05.webp",
+    "c09/06.webp",
+    "c09/07.webp",
+    "c09/08.webp"
+   ]
+  },
+  {
+   "id": "c10",
+   "chapter": 10,
+   "file": "Chapter 10 - Mauritius",
+   "title": "Chapter 10 – Mauritius",
+   "pages": [
+    "c10/01.webp",
+    "c10/02.webp",
+    "c10/03.webp",
+    "c10/04.webp",
+    "c10/05.webp",
+    "c10/06.webp",
+    "c10/07.webp",
+    "c10/08.webp",
+    "c10/09.webp"
+   ]
+  },
+  {
+   "id": "c11",
+   "chapter": 11,
+   "file": "Chapter 11 - Mauritius",
+   "title": "Chapter 11 – Mauritius",
+   "pages": [
+    "c11/01.webp",
+    "c11/02.webp",
+    "c11/03.webp",
+    "c11/04.webp",
+    "c11/05.webp",
+    "c11/06.webp",
+    "c11/07.webp",
+    "c11/08.webp"
+   ]
+  },
+  {
+   "id": "c12",
+   "chapter": 12,
+   "file": "Chapter 12 - India",
+   "title": "Chapter 12 – India",
+   "pages": [
+    "c12/01.webp",
+    "c12/02.webp",
+    "c12/03.webp",
+    "c12/04.webp",
+    "c12/05.webp",
+    "c12/06.webp",
+    "c12/07.webp",
+    "c12/08.webp",
+    "c12/09.webp"
+   ]
+  },
+  {
+   "id": "c13",
+   "chapter": 13,
+   "file": "Chapter 13 - Mauritius",
+   "title": "Chapter 13 – Mauritius",
+   "pages": [
+    "c13/01.webp",
+    "c13/02.webp",
+    "c13/03.webp",
+    "c13/04.webp",
+    "c13/05.webp",
+    "c13/06.webp",
+    "c13/07.webp",
+    "c13/08.webp"
+   ]
+  },
+  {
+   "id": "c14a",
+   "chapter": 14,
+   "file": "Chapter 14 - Mauritius",
+   "title": "Chapter 14 – Mauritius (Part 1)",
+   "pages": [
+    "c14a/01.webp",
+    "c14a/02.webp",
+    "c14a/03.webp",
+    "c14a/04.webp",
+    "c14a/05.webp",
+    "c14a/06.webp",
+    "c14a/07.webp",
+    "c14a/08.webp",
+    "c14a/09.webp"
+   ]
+  },
+  {
+   "id": "c14b",
+   "chapter": 14,
+   "file": "Chapter 14 - Mauritius",
+   "title": "Chapter 14 – Mauritius (Part 2)",
+   "pages": [
+    "c14b/01.webp",
+    "c14b/02.webp",
+    "c14b/03.webp",
+    "c14b/04.webp",
+    "c14b/05.webp",
+    "c14b/06.webp",
+    "c14b/07.webp",
+    "c14b/08.webp",
+    "c14b/09.webp",
+    "c14b/10.webp"
+   ]
+  },
+  {
+   "id": "c15",
+   "chapter": 15,
+   "file": "Chapter 15 - Mauritius",
+   "title": "Chapter 15 – Mauritius",
+   "pages": [
+    "c15/01.webp",
+    "c15/02.webp",
+    "c15/03.webp",
+    "c15/04.webp",
+    "c15/05.webp",
+    "c15/06.webp",
+    "c15/07.webp",
+    "c15/08.webp",
+    "c15/09.webp",
+    "c15/10.webp",
+    "c15/11.webp",
+    "c15/12.webp"
+   ]
+  },
+  {
+   "id": "c16",
+   "chapter": 16,
+   "file": "Chapter 16 - Mauritius",
+   "title": "Chapter 16 – Mauritius",
+   "pages": [
+    "c16/01.webp",
+    "c16/02.webp",
+    "c16/03.webp",
+    "c16/04.webp",
+    "c16/05.webp"
+   ]
+  },
+  {
+   "id": "c17",
+   "chapter": 17,
+   "file": "Chapter 17 - India",
+   "title": "Chapter 17 – India",
+   "pages": [
+    "c17/01.webp",
+    "c17/02.webp",
+    "c17/03.webp",
+    "c17/04.webp",
+    "c17/05.webp",
+    "c17/06.webp",
+    "c17/07.webp",
+    "c17/08.webp",
+    "c17/09.webp",
+    "c17/10.webp",
+    "c17/11.webp",
+    "c17/12.webp",
+    "c17/13.webp",
+    "c17/14.webp"
+   ]
+  },
+  {
+   "id": "c18",
+   "chapter": 18,
+   "file": "Chapter 18 - Mauritius to India",
+   "title": "Chapter 18 – Mauritius to India",
+   "pages": [
+    "c18/01.webp",
+    "c18/02.webp",
+    "c18/03.webp",
+    "c18/04.webp",
+    "c18/05.webp",
+    "c18/06.webp",
+    "c18/07.webp",
+    "c18/08.webp",
+    "c18/09.webp",
+    "c18/10.webp",
+    "c18/11.webp",
+    "c18/12.webp",
+    "c18/13.webp",
+    "c18/14.webp",
+    "c18/15.webp"
+   ]
+  },
+  {
+   "id": "c19",
+   "chapter": 19,
+   "file": "Chapter 19 - Mauritius",
+   "title": "Chapter 19 – Mauritius",
+   "pages": [
+    "c19/01.webp",
+    "c19/02.webp",
+    "c19/03.webp",
+    "c19/04.webp",
+    "c19/05.webp",
+    "c19/06.webp",
+    "c19/07.webp",
+    "c19/08.webp",
+    "c19/09.webp"
+   ]
+  },
+  {
+   "id": "c20",
+   "chapter": 20,
+   "file": "Chapter 20 - India",
+   "title": "Chapter 20 – India",
+   "pages": [
+    "c20/01.webp",
+    "c20/02.webp",
+    "c20/03.webp",
+    "c20/04.webp",
+    "c20/05.webp"
+   ]
+  },
+  {
+   "id": "c21",
+   "chapter": 21,
+   "file": "Chapter 21 - India",
+   "title": "Chapter 21 – India",
+   "pages": [
+    "c21/01.webp",
+    "c21/02.webp",
+    "c21/03.webp",
+    "c21/04.webp",
+    "c21/05.webp",
+    "c21/06.webp",
+    "c21/07.webp",
+    "c21/08.webp",
+    "c21/09.webp"
+   ]
+  },
+  {
+   "id": "c22",
+   "chapter": 22,
+   "file": "Chapter 22 - India",
+   "title": "Chapter 22 – India",
+   "pages": [
+    "c22/01.webp",
+    "c22/02.webp",
+    "c22/03.webp",
+    "c22/04.webp",
+    "c22/05.webp",
+    "c22/06.webp",
+    "c22/07.webp",
+    "c22/08.webp",
+    "c22/09.webp"
+   ]
+  },
+  {
+   "id": "c23",
+   "chapter": 23,
+   "file": "Chapter 23 - India",
+   "title": "Chapter 23 – India",
+   "pages": [
+    "c23/01.webp",
+    "c23/02.webp",
+    "c23/03.webp",
+    "c23/04.webp",
+    "c23/05.webp",
+    "c23/06.webp",
+    "c23/07.webp",
+    "c23/08.webp"
+   ]
+  },
+  {
+   "id": "c24",
+   "chapter": 24,
+   "file": "Chapter 24 - India",
+   "title": "Chapter 24 – India",
+   "pages": [
+    "c24/01.webp",
+    "c24/02.webp",
+    "c24/03.webp",
+    "c24/04.webp",
+    "c24/05.webp",
+    "c24/06.webp",
+    "c24/07.webp",
+    "c24/08.webp"
+   ]
+  },
+  {
+   "id": "c25",
+   "chapter": 25,
+   "file": "Chapter 25 - India",
+   "title": "Chapter 25 – India",
+   "pages": [
+    "c25/01.webp",
+    "c25/02.webp",
+    "c25/03.webp",
+    "c25/04.webp",
+    "c25/05.webp",
+    "c25/06.webp",
+    "c25/07.webp",
+    "c25/08.webp",
+    "c25/09.webp",
+    "c25/10.webp",
+    "c25/11.webp",
+    "c25/12.webp"
+   ]
+  },
+  {
+   "id": "c26",
+   "chapter": 26,
+   "file": "Chapter 26 - India",
+   "title": "Chapter 26 – India",
+   "pages": [
+    "c26/01.webp",
+    "c26/02.webp",
+    "c26/03.webp",
+    "c26/04.webp",
+    "c26/05.webp",
+    "c26/06.webp",
+    "c26/07.webp",
+    "c26/08.webp",
+    "c26/09.webp",
+    "c26/10.webp",
+    "c26/11.webp",
+    "c26/12.webp"
+   ]
+  },
+  {
+   "id": "c27",
+   "chapter": 27,
+   "file": "Chapter 27 - India",
+   "title": "Chapter 27 – India",
+   "pages": [
+    "c27/01.webp",
+    "c27/02.webp",
+    "c27/03.webp",
+    "c27/04.webp",
+    "c27/05.webp",
+    "c27/06.webp",
+    "c27/07.webp",
+    "c27/08.webp",
+    "c27/09.webp",
+    "c27/10.webp",
+    "c27/11.webp",
+    "c27/12.webp",
+    "c27/13.webp",
+    "c27/14.webp"
+   ]
+  }
+ ]
+}
