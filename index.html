@@ -183,7 +183,7 @@ footer{
      class="cover-image">
 
 <div class="start-reading">
-<a href="chapter.html?file=Chapter%2001%20-%20India">
+<a id="startReading" href="chapter.html?file=Chapter%2001%20-%20India">
 Start Reading
 </a>
 </div>
@@ -306,49 +306,49 @@ The Cost of a Double Life
 
 <script>
 
-const chapterOrder = [
-"Chapter 01 - India",
-"Chapter 02 - Mauritius",
-"Chapter 03 - Mauritius",
-"Chapter 04 - India",
-"Chapter 05 - Mauritius",
-"Chapter 06 - India",
-"Chapter 07 - Mauritius",
-"Chapter 08 - Mauritius",
-"Chapter 09 - India",
-"Chapter 10 - Mauritius",
-"Chapter 11 - Mauritius",
-"Chapter 12 - India",
-"Chapter 13 - Mauritius",
-"Chapter 14 - Mauritius",
-"Chapter 15 - Mauritius",
-"Chapter 16 - Mauritius",
-"Chapter 17 - India",
-"Chapter 18 - Mauritius to India",
-"Chapter 19 - Mauritius",
-"Chapter 20 - India",
-"Chapter 21 - India",
-"Chapter 22 - India",
-"Chapter 23 - India",
-"Chapter 24 - India",
-"Chapter 25 - India",
-"Chapter 26 - India",
-"Chapter 27 - India"
-];
-
 const list = document.getElementById("chapterList");
 
-chapterOrder.forEach((file, index) => {
+fetch("chapters.json")
+.then(response => {
 
-    const match = file.match(/^Chapter\s+(\d+)\s*-\s*(.+)$/);
-    const number = match ? parseInt(match[1], 10) : index + 1;
-    const location = match ? match[2] : "";
+    if(!response.ok){
+        throw new Error("Chapter list not found");
+    }
 
-    const a = document.createElement("a");
-    a.href = `chapter.html?file=${encodeURIComponent(file)}`;
-    a.innerHTML = `Chapter ${number} <span class="location">– ${location}</span>`;
+    return response.json();
 
-    list.appendChild(a);
+})
+.then(chapters => {
+
+    const start = document.getElementById("startReading");
+
+    if(start && chapters.length){
+        start.href = `chapter.html?file=${encodeURIComponent(chapters[0].file)}`;
+    }
+
+    chapters.forEach(c => {
+
+        const a = document.createElement("a");
+        a.href = `chapter.html?file=${encodeURIComponent(c.file)}`;
+
+        const parts = c.title.split(" – ");
+        a.appendChild(document.createTextNode(parts[0]));
+
+        if(parts.length > 1){
+            const span = document.createElement("span");
+            span.className = "location";
+            span.textContent = " – " + parts.slice(1).join(" – ");
+            a.appendChild(span);
+        }
+
+        list.appendChild(a);
+
+    });
+
+})
+.catch(() => {
+
+    list.textContent = "Chapters could not be loaded.";
 
 });
 

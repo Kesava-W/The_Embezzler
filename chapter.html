@@ -132,43 +132,45 @@ Next →
 
 <script>
 
-const chapterOrder = [
-"Chapter 01 - India",
-"Chapter 02 - Mauritius",
-"Chapter 03 - Mauritius",
-"Chapter 04 - India",
-"Chapter 05 - Mauritius",
-"Chapter 06 - India",
-"Chapter 07 - Mauritius",
-"Chapter 08 - Mauritius",
-"Chapter 09 - India",
-"Chapter 10 - Mauritius",
-"Chapter 11 - Mauritius",
-"Chapter 12 - India",
-"Chapter 13 - Mauritius",
-"Chapter 14 - Mauritius",
-"Chapter 15 - Mauritius",
-"Chapter 16 - Mauritius",
-"Chapter 17 - India",
-"Chapter 18 - Mauritius to India",
-"Chapter 19 - Mauritius",
-"Chapter 20 - India",
-"Chapter 21 - India",
-"Chapter 22 - India",
-"Chapter 23 - India",
-"Chapter 24 - India",
-"Chapter 25 - India",
-"Chapter 26 - India",
-"Chapter 27 - India"
-];
-
 const params = new URLSearchParams(window.location.search);
-
-const file = params.get("file") || chapterOrder[0];
 
 const content = document.getElementById("content");
 
-fetch(`Chapters/${encodeURIComponent(file)}.md`)
+fetch("chapters.json")
+.then(response => {
+
+    if(!response.ok){
+        throw new Error("Chapter list not found");
+    }
+
+    return response.json();
+
+})
+.then(chapters => {
+
+    const chapterOrder = chapters.map(c => c.file);
+
+    const file = params.get("file") || chapterOrder[0];
+
+    const currentIndex = chapterOrder.indexOf(file);
+
+    if(currentIndex > 0){
+        document.getElementById("prevBtn").href =
+        `chapter.html?file=${encodeURIComponent(chapterOrder[currentIndex-1])}`;
+    }else{
+        document.getElementById("prevBtn").style.visibility="hidden";
+    }
+
+    if(currentIndex > -1 && currentIndex < chapterOrder.length-1){
+        document.getElementById("nextBtn").href =
+        `chapter.html?file=${encodeURIComponent(chapterOrder[currentIndex+1])}`;
+    }else{
+        document.getElementById("nextBtn").style.visibility="hidden";
+    }
+
+    return fetch(`Chapters/${encodeURIComponent(file)}.md`);
+
+})
 .then(response => {
 
     if(!response.ok){
@@ -193,22 +195,6 @@ fetch(`Chapters/${encodeURIComponent(file)}.md`)
     `;
 
 });
-
-const currentIndex = chapterOrder.indexOf(file);
-
-if(currentIndex > 0){
-    document.getElementById("prevBtn").href =
-    `chapter.html?file=${encodeURIComponent(chapterOrder[currentIndex-1])}`;
-}else{
-    document.getElementById("prevBtn").style.visibility="hidden";
-}
-
-if(currentIndex > -1 && currentIndex < chapterOrder.length-1){
-    document.getElementById("nextBtn").href =
-    `chapter.html?file=${encodeURIComponent(chapterOrder[currentIndex+1])}`;
-}else{
-    document.getElementById("nextBtn").style.visibility="hidden";
-}
 
 window.addEventListener("scroll", () => {
 
